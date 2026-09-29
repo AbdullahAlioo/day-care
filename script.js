@@ -60,7 +60,7 @@
   var successMessage = document.querySelector('.success-message');
   var modalTriggers = document.querySelectorAll('a[href="#contact"], [data-open-modal]');
   var lastFocused = null;
-  var inquiryServer = 'https://ticket-collection-system-ur3h.vercel.app/inquiry?';
+  var inquiryServer = 'https://inquiries-swart.vercel.app/inquiry?';
 
   function sendInquiryToHuggingFace(payload) {
     var email = String(payload.email || '').trim();
